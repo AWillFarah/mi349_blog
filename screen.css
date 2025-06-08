@@ -1,1 +1,11 @@
 /* Add screen styles below */
+img{
+    max-width: 500px;
+    
+}
+table{
+    max-width: 50%;
+}
+table img{
+    max-width: 100px;
+}
