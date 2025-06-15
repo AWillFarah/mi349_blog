@@ -1,11 +1,111 @@
 /* Add screen styles below */
-img{
-    max-width: 500px;
+*{
+    font-family: "Comic Sans MS";
+}
+
+section.blog{
+    margin: 50px;
+}
+
+.site-header{
+    background-image: url('./images/banner.png');
+    text-align: center;
+}
+
+#site-description{
+    background: white;
+    margin: 0px 30%;
+}
+
+header{
+    
+    background-position: center;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+.navigation-header{
+    background: coral;
+}
+
+.flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     
 }
-table{
+
+.flex-container > div{
+    width: 100px;
+    border: 2px solid rgb(96 139 168);
+    border-radius: 5px;
+    background-color: rgb(96 139 168 / 0.2);
+    position: sticky;
+    top: 0;
+}
+
+
+
+h1{
+    
+    background-position: center;
+    text-align: center;
+    font-size: 5em;
+    background: white;
+    margin: 0px 30%;
+}
+
+h2{
+    margin: 0px 0px;
+}
+
+h3{
+    margin: 0px 0px;
+    text-align: center;
+    background: chartreuse;
+}
+
+.captioned-image{
+    display: block;
+    margin: auto;
+    
+    font-size: smaller;
+    color: darkgrey;
+    text-align: center;
+}
+.captioned-image-with-float{
+    display: block;
+    float: left;
+    font-size: smaller;
+    text-align: center;
+    margin: 20px 100px;
+    color: darkgrey;
+}
+
+#float-image{
+    float: right;
+    max-width: 200px;
+}
+
+#float-image-left{
+    float: left;
+    max-width: 300px;
+}
+
+img{
+    max-width: 500px; 
+}
+
+table {
     max-width: 50%;
+    text-align: center;
+    background: cadetblue;
 }
 table img{
     max-width: 100px;
 }
+
+
+
